@@ -1,1 +1,1 @@
-# bash-config
+# bash-config + some near files
