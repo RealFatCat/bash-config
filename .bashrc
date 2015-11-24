@@ -12,14 +12,17 @@ export PS1="\[\e[00;37m\][\[\e[0m\]\[\e[01;32m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m
 export TERMINAL="/usr/bin/terminator"
 export EDITOR="/usr/bin/vim"
 export PAGER="/usr/bin/less"
+export HISTTIMEFORMAT="%d/%m/%y %T "
 
 alias pacman='sudo pacman'
 alias apt-get='sudo apt-get'
+alias smartctl='sudo smartctl'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias grpe='grep --color=auto'
 alias egrep='egrep --color=auto'
-alias gvim="gvim --remote-silent"
+alias netctl='sudo netctl'
+#alias gvim="gvim --remote-silent"
 
 ## START SSH-AGENT PROPER STARTER
 
