@@ -22,6 +22,7 @@ alias grep='grep --color=auto'
 alias grpe='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias netctl='sudo netctl'
+alias tmux='tmux -2'
 #alias gvim="gvim --remote-silent"
 
 ## START SSH-AGENT PROPER STARTER
