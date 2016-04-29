@@ -13,6 +13,7 @@ export TERMINAL="/usr/bin/terminator"
 export EDITOR="/usr/bin/vim"
 export PAGER="/usr/bin/less"
 export HISTTIMEFORMAT="%d/%m/%y %T "
+export ANSIBLE_HOST_KEY_CHECKING=False
 
 alias pacman='sudo pacman'
 alias apt-get='sudo apt-get'
@@ -23,6 +24,7 @@ alias grpe='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias netctl='sudo netctl'
 alias tmux='tmux -2'
+alias pyhton='python'
 #alias gvim="gvim --remote-silent"
 
 ## START SSH-AGENT PROPER STARTER
