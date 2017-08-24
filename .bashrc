@@ -15,6 +15,8 @@ export PAGER="/usr/bin/less"
 export HISTTIMEFORMAT="%d/%m/%y %T "
 export ANSIBLE_HOST_KEY_CHECKING=False
 
+[[ -f /home/$(whoami)/git/fzf/bin/fzf ]] && export PATH="$PATH:/home/$(whoami)/git/fzf/bin"
+
 alias pacman='sudo pacman'
 alias apt-get='sudo apt-get'
 alias smartctl='sudo smartctl'
